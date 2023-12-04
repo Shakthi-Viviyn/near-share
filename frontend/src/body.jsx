@@ -27,9 +27,7 @@ export default function Body({position}) {
     }, [position]);
 
     function fetchImage(fileName){
-        console.log(fileName);
         let extension = fileName.split(".")[1];
-        console.log(extension)
         switch(extension){
             case "png":
                 return "/icons/image.svg";

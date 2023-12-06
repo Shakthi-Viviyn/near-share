@@ -169,7 +169,7 @@ export default function UploadModal({setUploadModal, position, setReload, user})
                                 step={5}
                                 marks
                                 min={5}
-                                max={20}
+                                max={15}
                                 onChange={(e, val) => setExpireTime(val)}
                                 sx={{color: '#164863'}}
                             />
